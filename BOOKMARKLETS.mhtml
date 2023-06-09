@@ -1,0 +1,944 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://caiorss.github.io/bookmarklets.html
+Subject: BOOKMARKLETS
+Date: Fri, 9 Jun 2023 21:29:36 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----"
+
+
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/html
+Content-ID: <frame-1680E0341DF8A2FAC4474A899078A6F5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://caiorss.github.io/bookmarklets.html
+
+<!DOCTYPE html><html data-darkreader-mode=3D"dynamic" data-darkreader-schem=
+e=3D"dark"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; ch=
+arset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-8=
+70ceab3-9527-42c9-994d-50dd56fcd84b@mhtml.blink" /><link rel=3D"stylesheet"=
+ type=3D"text/css" href=3D"cid:css-a2aa4c19-d340-48e5-9b7e-5306f9e086b7@mht=
+ml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-0556=
+594b-61b9-4c87-94c9-45919eee3666@mhtml.blink" /><link rel=3D"stylesheet" ty=
+pe=3D"text/css" href=3D"cid:css-ecc6e655-7a31-4321-a054-668ca7ee860e@mhtml.=
+blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7a90581=
+5-a9c9-4364-a467-b08e7859b714@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-f4047efe-54cf-4209-a061-3a7c81ed2bf0@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a69c16bc-=
+f97c-4401-abb6-429568882988@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-fffe7216-d047-41e0-bb47-f2a8b20b5b10@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7fefdfce-720=
+e-4ad9-b7a6-1dd0040075dd@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-56f72fcd-e5ee-4c51-8e4e-4630a85da13d@mhtml.blink" /=
+><title>BOOKMARKLETS</title><meta name=3D"darkreader" content=3D"b10f349067=
+f7349caa05f27ccc82ba35"></head><body><div id=3D"readme" class=3D"container"=
+><article class=3D"markdown-body"><h1 id=3D"bookmarklets">BOOKMARKLETS</h1>
+<p>See this page at: <a href=3D"http://caiorss.github.io/bookmarklets.html"=
+>http://caiorss.github.io/bookmarklets.html</a></p>
+<p>Useful bookmarklets for Web Scraping, Web Development and for easy navig=
+ation.</p>
+<p>To install the bookmarklet, drag and drop the link to the Browser's book=
+mark bar.</p>
+<p>See also: </p>
+<p>Bookmarklets creators</p>
+<ul>
+<li><a href=3D"http://mrcoles.com/bookmarklet/">http://mrcoles.com/bookmark=
+let/</a></li>
+<li><a href=3D"https://bookmarkify.it/">https://bookmarkify.it/</a></li>
+</ul>
+<p>Miscs</p>
+<ul>
+<li><a href=3D"http://betterexplained.com/articles/how-to-make-a-bookmarkle=
+t-for-your-web-application/">http://betterexplained.com/articles/how-to-mak=
+e-a-bookmarklet-for-your-web-application/</a></li>
+<li><a href=3D"http://ha.ckers.org/bookmarklets.htmlsaad">http://ha.ckers.o=
+rg/bookmarklets.htmlsaad</a></li>
+<li><a href=3D"http://www.wordreference.com/english/LinkButtonsOld.htm">htt=
+p://www.wordreference.com/english/LinkButtonsOld.htm</a></li>
+</ul>
+<h2 id=3D"templates">Templates</h2>
+<h3 id=3D"bookmarklets-templates-executable-urls">Bookmarklets templates / =
+Executable URLs</h3>
+<p>Run Generic Javascript Code</p>
+<div class=3D"highlight highlight-html"><pre><span class=3D"nt">&lt;a</span=
+> <span class=3D"na">href=3D</span><span class=3D"s">"javascript:(function(=
+){ &lt;&lt;&lt; JAVASCRIPT CODE HERE &gt;&gt;&gt;  })()"</span><span class=
+=3D"nt">&gt;</span> Bookmark Label <span class=3D"nt">&lt;/a&gt;</span>
+</pre></div>
+<p>Inject Script into Page</p>
+<div class=3D"highlight highlight-html"><pre><span class=3D"nt">&lt;a</span=
+> <span class=3D"na">href=3D</span><span class=3D"s">"javascript:(function(=
+){document.body.appendChild(document.createElement('script')).src=3D'http:/=
+/SCRIPT-URL/SCRIPT.JS' })();"</span><span class=3D"nt">&gt;</span> Label <s=
+pan class=3D"nt">&lt;/a&gt;</span>
+</pre></div>
+<p>Example: </p>
+<p>Click in the link bellow to show a message box with the text 'Hello Worl=
+d Javascript !!' </p>
+<d1>
+<a> Click me </a>
+</d1>=20
+
+<div class=3D"highlight highlight-html"><pre><span class=3D"nt">&lt;a</span=
+> <span class=3D"na">href=3D</span><span class=3D"s">"javascript:(function(=
+){alert('Hello World Javascript !!')})()"</span><span class=3D"nt">&gt;</sp=
+an> Click me <span class=3D"nt">&lt;/a&gt;</span>
+</pre></div>
+<h3 id=3D"useful-javascript-snippts">Useful Javascript Snippts</h3>
+<p>Inject Jquery Snippet</p>
+<div class=3D"highlight highlight-javascript"><pre><span class=3D"nb">docum=
+ent</span><span class=3D"p">.</span><span class=3D"nx">body</span><span cla=
+ss=3D"p">.</span><span class=3D"nx">appendChild</span><span class=3D"p">(</=
+span><span class=3D"nb">document</span><span class=3D"p">.</span><span clas=
+s=3D"nx">createElement</span><span class=3D"p">(</span><span class=3D"s1">'=
+script'</span><span class=3D"p">)).</span><span class=3D"nx">src</span><spa=
+n class=3D"o">=3D</span><span class=3D"s1">'http://code.jquery.com/jquery-1=
+.7.2.min.js'</span>
+</pre></div>
+<h2 id=3D"utilities">Utilities</h2>
+<h4 id=3D"panel-with-many-useful-bookmarklets">Panel With Many Useful Bookm=
+arklets</h4>
+<d1>
+<a>JS Panel</a>
+</d1>
+
+
+<h4 id=3D"tiny-url">Tiny URL</h4>
+<d1>
+<a>TinyURL</a>
+</d1>
+
+<h4 id=3D"qr-code">QR Code</h4>
+<p>Make QR code to Current Page to make easier to share the URL with Smart =
+Phones.</p>
+<dl>
+
+<a>Create QR code </a>
+
+</dl>
+
+
+<h4 id=3D"search-dictionary">Search Dictionary</h4>
+<p>Look up a word on Dictionary.com</p>
+<d1>
+<a>Dictionary</a>
+</d1>
+
+<p>Find synonyms for a word on Thesaurus.com</p>
+<d1>
+<a>Thesaurus</a>
+</d1>
+
+
+<h3 id=3D"print-what-you-like">Print What You Like</h3>
+<d1>
+<a id=3D"bkmklt_link_safari">PrintWhatYouLike</a>
+</d1>
+
+<h4 id=3D"list-all-links">List All Links</h4>
+<d1>
+
+<a>List All Links</a>
+
+</d1>
+
+<h4 id=3D"visit-cached-web-page-or-defunct-web-sites">Visit Cached Web Page=
+ or Defunct Web Sites</h4>
+<p>If you see the error: 404 page not found, the you can with one click loo=
+k for the Web Site in the Way back Machine archive.</p>
+<d1>
+<a> Web Archive</a>
+</d1>
+
+
+<h4 id=3D"show-password">Show Password</h4>
+<p>This bookmarklet takes in your <strong>*</strong> from form field and sh=
+ows you the actual password.</p>
+<p><a>Show Passw</a></p>
+<h4 id=3D"bypass-youtube-adult-filter-without-sign-in">Bypass Youtube Adult=
+ filter without Sign In</h4>
+<d1>
+<a> Bypass Youtube </a>
+</d1>
+
+<h4 id=3D"download-videos">Download Videos</h4>
+<p>PwnYouTube Bookmarklet</p>
+<p>Download a YouTube video from any web page. Save a YouTube video as an M=
+P3 file, iPod file, FLV file, MP4 file, AVI file, and more!
+Support for Google Video, DailyMotion.com, Facebook.com, MegaVideo.com, Bre=
+ak.com, MetaCafe.com, FunnyOrDie.com, Vimeo.com.</p>
+<p><a>PwnYouTube</a></p>
+<h4 id=3D"reverse-image-search">Reverse Image Search</h4>
+<p>Src Img is a bookmarklet that interfaces with Google=E2=84=A2 Image Sear=
+ch to help you find the creators of images you see on blogs that are too la=
+me cool for attribution.
+How do I use it? Drag the following link to the bookmarks bar in your brows=
+er.
+Then click it when you are on a page with images you want to track down.</p=
+>
+<p>Source: <a href=3D"http://jarred.github.io/src-img/">http://jarred.githu=
+b.io/src-img/</a></p>
+<d1>
+<a>src-im</a>
+</d1>
+
+
+<h2 id=3D"web-dev-and-scraping">WEB Dev and Scraping</h2>
+<h4 id=3D"inject-interactive-javascript-terminal-jash-shell">Inject Interac=
+tive Javascript Terminal: Jash Shell</h4>
+<p>See: <a href=3D"http://billyreisinger.com/jash">http://billyreisinger.co=
+m/jash</a></p>
+<d1>
+<a>Jash Shell</a>
+</d1>
+
+<h4 id=3D"script-prompt">Script Prompt</h4>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<p>Prompts for javascript code and variables, which it interprets and outpu=
+ts in another fully functional prompt. In the right hands, it has all the t=
+ools needed for the most complicated script debugging, down to an pocket ca=
+lculator. </p>
+<d1>
+<a class=3D"jsl">Script Prompt</a>
+</d1>
+
+
+
+
+<h4 id=3D"inspect-page-with-aadvark">Inspect Page with AADVARk</h4>
+<p>The Aardvark bookmarklet is a tool for web developers/designers as well =
+as casual users. To quickly see it in action on this page,</p>
+<p>See also: <a href=3D"http://karmatics.com/aardvark/">http://karmatics.co=
+m/aardvark/</a></p>
+<d1>
+<a>AADVARK</a>
+</d1>
+
+
+<h4 id=3D"inject-jquery">Inject JQuery</h4>
+<p>Inject JQuery to test, debug, modify and hack the client side view of a =
+page, so you can run scripts and debug with Firebug or Chrome dev tools.</p=
+>
+<d1>
+<a> Inject Jquery </a>
+</d1>
+
+<h4 id=3D"show-cookies">Show Cookies</h4>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<p>Pops up the content of the cookie associated with the current website. <=
+/p>
+<d1>
+<a>Cookie Pop</a>
+</d1>
+
+
+<h4 id=3D"execute-html">Execute HTML</h4>
+<p>Interprets and pops up any selection of written out HTML, including scri=
+pt. Works similar to the "As New Page" bookmarklet if plain text is selecte=
+d. Saves tons of time and hassle - for geeks.</p>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<d1>
+<a class=3D"jsl">Execute HTML</a>
+</d1>
+
+<h4 id=3D"remove-cookies">Remove Cookies</h4>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<d1>
+<a class=3D"jsl">Cookie Delete</a>
+</d1>
+
+<h4 id=3D"stop-popup">Stop Popup</h4>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<p>Attempts to kill all popups and the current window. </p>
+<d1>
+<a class=3D"jsl">Stop Popup</a>
+</d1>
+
+<h4 id=3D"strip-script">Strip Script</h4>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<p>Strips all scripts from a page. </p>
+<d1>
+<a class=3D"jsl">Strip Script</a>
+</d1>
+
+<h4 id=3D"restore-rightclick">Restore Rightclick</h4>
+<p>Restores the default function of the alternative mouse button, which is =
+to pop up a contextmenu, on pages where this has been tempered with. diable=
+</p>
+<d1>
+<a class=3D"jsl">Restore Rightclick</a>
+</d1>
+
+
+<h4 id=3D"get-window-size">Get Window Size</h4>
+<p>Credits: <a href=3D"http://4umi.com/web/bookmarklet/all.php">http://4umi=
+.com/web/bookmarklet/all.php</a></p>
+<p>Alerts the width and height in pixels of the inner window.</p>
+<d1>
+<a class=3D"jsl">Get size</a>
+</d1>
+
+</article></div></body></html>
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-870ceab3-9527-42c9-994d-50dd56fcd84b@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a2aa4c19-d340-48e5-9b7e-5306f9e086b7@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0556594b-61b9-4c87-94c9-45919eee3666@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ecc6e655-7a31-4321-a054-668ca7ee860e@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor) !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage) !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der) !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom) !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left) !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right) !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top) !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow) !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color) !imp=
+ortant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill) !import=
+ant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke) !=
+important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline) !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor) !important; }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7a905815-a9c9-4364-a467-b08e7859b714@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f4047efe-54cf-4209-a061-3a7c81ed2bf0@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a69c16bc-f97c-4401-abb6-429568882988@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html { color-scheme: dark !important; }
+
+html, body { background-color: rgb(24, 26, 27); }
+
+html, body { border-color: rgb(115, 107, 94); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(64, 68, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fffe7216-d047-41e0-bb47-f2a8b20b5b10@mhtml.blink
+
+@charset "utf-8";
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+td, th { padding: 0px; }
+
+* { box-sizing: border-box; }
+
+body, input, select, textarea, button { font: 13px / 1.4 Helvetica, arial, =
+freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+body { min-width: 1020px; color: rgb(51, 51, 51); background-color: rgb(255=
+, 255, 255); }
+
+a { color: rgb(65, 131, 196); text-decoration: none; }
+
+a:hover, a:focus, a:active { text-decoration: underline; }
+
+tt, code, pre { font-family: Consolas, "Liberation Mono", Menlo, Courier, m=
+onospace; font-size: 12px; }
+
+small { font-size: 90%; }
+
+blockquote { margin: 0px; }
+
+.container { width: 980px; margin: 40px auto; }
+
+#readme .markdown-body { background-color: rgb(255, 255, 255); border: 1px =
+solid rgb(221, 221, 221); border-bottom-left-radius: 3px; border-bottom-rig=
+ht-radius: 3px; padding: 30px; overflow-wrap: break-word; }
+
+#readme .plain pre { font-size: 15px; white-space: pre-wrap; }
+
+.markdown-body { overflow: hidden; font-family: "Helvetica Neue", Helvetica=
+, Arial, freesans, sans-serif; font-size: 16px; line-height: 1.6; overflow-=
+wrap: break-word; }
+
+.markdown-body > :first-child { margin-top: 0px !important; }
+
+.markdown-body > :last-child { margin-bottom: 0px !important; }
+
+.markdown-body .absent { color: rgb(204, 0, 0); }
+
+.markdown-body .anchor { position: absolute; top: 0px; bottom: 0px; left: 0=
+px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -3=
+0px; }
+
+.markdown-body .anchor:focus { outline: none; }
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4,=
+ .markdown-body h5, .markdown-body h6 { position: relative; margin-top: 1em=
+; margin-bottom: 16px; font-weight: 700; }
+
+.markdown-body h4, .markdown-body h5, .markdown-body h6 { line-height: 1.4;=
+ }
+
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown=
+-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 =
+.octicon-link, .markdown-body h6 .octicon-link { display: none; color: rgb(=
+0, 0, 0); vertical-align: middle; }
+
+.markdown-body h1:hover .anchor, .markdown-body h2:hover .anchor, .markdown=
+-body h3:hover .anchor, .markdown-body h4:hover .anchor, .markdown-body h5:=
+hover .anchor, .markdown-body h6:hover .anchor { height: 1em; padding-left:=
+ 8px; margin-left: -30px; line-height: 1; text-decoration: none; }
+
+.markdown-body h1:hover .anchor .octicon-link, .markdown-body h2:hover .anc=
+hor .octicon-link, .markdown-body h3:hover .anchor .octicon-link, .markdown=
+-body h4:hover .anchor .octicon-link, .markdown-body h5:hover .anchor .octi=
+con-link, .markdown-body h6:hover .anchor .octicon-link { display: inline-b=
+lock; }
+
+.markdown-body h1 tt, .markdown-body h1 code, .markdown-body h2 tt, .markdo=
+wn-body h2 code, .markdown-body h3 tt, .markdown-body h3 code, .markdown-bo=
+dy h4 tt, .markdown-body h4 code, .markdown-body h5 tt, .markdown-body h5 c=
+ode, .markdown-body h6 tt, .markdown-body h6 code { font-size: inherit; }
+
+.markdown-body h1 { font-size: 2.25em; line-height: 1.2; }
+
+.markdown-body h1, .markdown-body h2 { padding-bottom: 0.3em; border-bottom=
+: 1px solid rgb(238, 238, 238); }
+
+.markdown-body h2 { font-size: 1.75em; line-height: 1.225; }
+
+.markdown-body h3 { font-size: 1.5em; line-height: 1.43; }
+
+.markdown-body h4 { font-size: 1.25em; }
+
+.markdown-body h5 { font-size: 1em; }
+
+.markdown-body h6 { font-size: 1em; color: rgb(119, 119, 119); }
+
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-b=
+ody ol, .markdown-body dl, .markdown-body table, .markdown-body pre { margi=
+n-top: 0px; margin-bottom: 16px; }
+
+.markdown-body hr { height: 4px; padding: 0px; margin: 16px 0px; background=
+-color: rgb(231, 231, 231); border: 0px none; }
+
+.markdown-body ul, .markdown-body ol { padding-left: 2em; }
+
+.markdown-body ul.no-list, .markdown-body ol.no-list { padding: 0px; list-s=
+tyle-type: none; }
+
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown=
+-body ol ul { margin-top: 0px; margin-bottom: 0px; }
+
+.markdown-body li > p { margin-top: 16px; }
+
+.markdown-body dl { padding: 0px; }
+
+.markdown-body dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font=
+-style: italic; font-weight: 700; }
+
+.markdown-body dl dd { padding: 0px 16px; margin-bottom: 16px; }
+
+.markdown-body blockquote { padding: 0px 15px; color: rgb(119, 119, 119); b=
+order-left: 4px solid rgb(221, 221, 221); }
+
+.markdown-body blockquote > :first-child { margin-top: 0px; }
+
+.markdown-body blockquote > :last-child { margin-bottom: 0px; }
+
+.markdown-body table { display: block; width: 100%; overflow: auto; }
+
+.markdown-body table th { font-weight: 700; }
+
+.markdown-body table th, .markdown-body table td { padding: 6px 13px; borde=
+r: 1px solid rgb(221, 221, 221); }
+
+.markdown-body table tr { background-color: rgb(255, 255, 255); border-top:=
+ 1px solid rgb(204, 204, 204); }
+
+.markdown-body table tr:nth-child(2n) { background-color: rgb(248, 248, 248=
+); }
+
+.markdown-body img { max-width: 100%; box-sizing: border-box; }
+
+.markdown-body span.frame { display: block; overflow: hidden; }
+
+.markdown-body span.frame > span { display: block; float: left; width: auto=
+; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid r=
+gb(221, 221, 221); }
+
+.markdown-body span.frame span img { display: block; float: left; }
+
+.markdown-body span.frame span span { display: block; padding: 5px 0px 0px;=
+ clear: both; color: rgb(51, 51, 51); }
+
+.markdown-body span.align-center { display: block; overflow: hidden; clear:=
+ both; }
+
+.markdown-body span.align-center > span { display: block; margin: 13px auto=
+ 0px; overflow: hidden; text-align: center; }
+
+.markdown-body span.align-center span img { margin: 0px auto; text-align: c=
+enter; }
+
+.markdown-body span.align-right { display: block; overflow: hidden; clear: =
+both; }
+
+.markdown-body span.align-right > span { display: block; margin: 13px 0px 0=
+px; overflow: hidden; text-align: right; }
+
+.markdown-body span.align-right span img { margin: 0px; text-align: right; =
+}
+
+.markdown-body span.float-left { display: block; float: left; margin-right:=
+ 13px; overflow: hidden; }
+
+.markdown-body span.float-left span { margin: 13px 0px 0px; }
+
+.markdown-body span.float-right { display: block; float: right; margin-left=
+: 13px; overflow: hidden; }
+
+.markdown-body span.float-right > span { display: block; margin: 13px auto =
+0px; overflow: hidden; text-align: right; }
+
+.markdown-body code, .markdown-body tt { padding: 0.2em 0px; margin: 0px; f=
+ont-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
+
+.markdown-body code::before, .markdown-body code::after, .markdown-body tt:=
+:before, .markdown-body tt::after { letter-spacing: -0.2em; content: "=C2=
+=A0"; }
+
+.markdown-body code br, .markdown-body tt br { display: none; }
+
+.markdown-body del code { text-decoration: inherit; vertical-align: text-to=
+p; }
+
+.markdown-body pre > code { padding: 0px; margin: 0px; font-size: 100%; whi=
+te-space: pre; background: 0px 0px; border: 0px; }
+
+.markdown-body .highlight { margin-bottom: 16px; }
+
+.markdown-body .highlight pre, .markdown-body pre { padding: 16px; overflow=
+: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, =
+247); border-radius: 3px; }
+
+.markdown-body .highlight pre { margin-bottom: 0px; }
+
+.markdown-body pre { overflow-wrap: normal; }
+
+.markdown-body pre code, .markdown-body pre tt { display: inline; max-width=
+: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inher=
+it; overflow-wrap: normal; background-color: transparent; border: 0px; }
+
+.markdown-body pre code::before, .markdown-body pre code::after, .markdown-=
+body pre tt::before, .markdown-body pre tt::after { content: normal; }
+
+.highlight { background: rgb(255, 255, 255); }
+
+.highlight .c { color: rgb(153, 153, 136); font-style: italic; }
+
+.highlight .err { color: rgb(166, 23, 23); background-color: rgb(227, 210, =
+210); }
+
+.highlight .k, .highlight .o { font-weight: 700; }
+
+.highlight .cm { color: rgb(153, 153, 136); font-style: italic; }
+
+.highlight .cp { color: rgb(153, 153, 153); font-weight: 700; }
+
+.highlight .c1 { color: rgb(153, 153, 136); font-style: italic; }
+
+.highlight .cs { color: rgb(153, 153, 153); font-weight: 700; font-style: i=
+talic; }
+
+.highlight .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221);=
+ }
+
+.highlight .gd .x { color: rgb(0, 0, 0); background-color: rgb(255, 170, 17=
+0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(170, 0, 0); }
+
+.highlight .gh { color: rgb(153, 153, 153); }
+
+.highlight .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221);=
+ }
+
+.highlight .gi .x { color: rgb(0, 0, 0); background-color: rgb(170, 255, 17=
+0); }
+
+.highlight .go { color: rgb(136, 136, 136); }
+
+.highlight .gp { color: rgb(85, 85, 85); }
+
+.highlight .gs, .highlight .gu { font-weight: 700; }
+
+.highlight .gu { color: purple; }
+
+.highlight .gt { color: rgb(170, 0, 0); }
+
+.highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight =
+.kr, .highlight .kt { font-weight: 700; }
+
+.highlight .kt { color: rgb(68, 85, 136); }
+
+.highlight .m { color: rgb(0, 153, 153); }
+
+.highlight .s { color: rgb(221, 17, 68); }
+
+.highlight .n { color: rgb(51, 51, 51); }
+
+.highlight .na { color: teal; }
+
+.highlight .nb { color: rgb(0, 134, 179); }
+
+.highlight .nc { color: rgb(68, 85, 136); font-weight: 700; }
+
+.highlight .no { color: teal; }
+
+.highlight .ni { color: purple; }
+
+.highlight .ne, .highlight .nf { color: rgb(153, 0, 0); font-weight: 700; }
+
+.highlight .nn { color: rgb(85, 85, 85); }
+
+.highlight .nt { color: navy; }
+
+.highlight .nv { color: teal; }
+
+.highlight .ow { font-weight: 700; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo { color: rgb=
+(0, 153, 153); }
+
+.highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight =
+.se, .highlight .sh, .highlight .si, .highlight .sx { color: rgb(221, 17, 6=
+8); }
+
+.highlight .sr { color: rgb(0, 153, 38); }
+
+.highlight .s1 { color: rgb(221, 17, 68); }
+
+.highlight .ss { color: rgb(153, 0, 115); }
+
+.highlight .bp { color: rgb(153, 153, 153); }
+
+.highlight .vc, .highlight .vg, .highlight .vi { color: teal; }
+
+.highlight .il { color: rgb(0, 153, 153); }
+
+.highlight .gc { color: rgb(153, 153, 153); background-color: rgb(234, 242,=
+ 245); }
+
+.type-csharp .highlight .k, .type-csharp .highlight .kt { color: rgb(0, 0, =
+255); }
+
+.type-csharp .highlight .nf { color: rgb(0, 0, 0); font-weight: 400; }
+
+.type-csharp .highlight .nc { color: rgb(43, 145, 175); }
+
+.type-csharp .highlight .nn { color: rgb(0, 0, 0); }
+
+.type-csharp .highlight .s, .type-csharp .highlight .sc { color: rgb(163, 2=
+1, 21); }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7fefdfce-720e-4ad9-b7a6-1dd0040075dd@mhtml.blink
+
+@charset "utf-8";
+
+body { color: rgb(200, 195, 188); background-color: rgb(24, 26, 27); }
+
+a { color: rgb(83, 149, 202); text-decoration-color: initial; }
+
+a:hover, a:focus, a:active { text-decoration-color: initial; }
+
+#readme .markdown-body { background-color: rgb(24, 26, 27); border-color: r=
+gb(58, 62, 65); }
+
+.markdown-body .absent { color: rgb(255, 61, 61); }
+
+.markdown-body .anchor:focus { outline-color: initial; }
+
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown=
+-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 =
+.octicon-link, .markdown-body h6 .octicon-link { color: rgb(232, 230, 227);=
+ }
+
+.markdown-body h1:hover .anchor, .markdown-body h2:hover .anchor, .markdown=
+-body h3:hover .anchor, .markdown-body h4:hover .anchor, .markdown-body h5:=
+hover .anchor, .markdown-body h6:hover .anchor { text-decoration-color: ini=
+tial; }
+
+.markdown-body h1, .markdown-body h2 { border-bottom-color: rgb(53, 57, 59)=
+; }
+
+.markdown-body h6 { color: rgb(157, 148, 136); }
+
+.markdown-body hr { background-color: rgb(38, 41, 42); border-color: initia=
+l; }
+
+.markdown-body blockquote { color: rgb(157, 148, 136); border-left-color: r=
+gb(58, 62, 65); }
+
+.markdown-body table th, .markdown-body table td { border-color: rgb(58, 62=
+, 65); }
+
+.markdown-body table tr { background-color: rgb(24, 26, 27); border-top-col=
+or: rgb(62, 68, 70); }
+
+.markdown-body table tr:nth-child(2n) { background-color: rgb(28, 30, 31); =
+}
+
+.markdown-body span.frame > span { border-color: rgb(58, 62, 65); }
+
+.markdown-body span.frame span span { color: rgb(200, 195, 188); }
+
+.markdown-body code, .markdown-body tt { background-color: rgba(0, 0, 0, 0.=
+04); }
+
+.markdown-body del code { text-decoration-color: inherit; }
+
+.markdown-body pre > code { background-image: initial; background-color: in=
+itial; border-color: initial; }
+
+.markdown-body .highlight pre, .markdown-body pre { background-color: rgb(2=
+9, 31, 32); }
+
+.markdown-body pre code, .markdown-body pre tt { background-color: transpar=
+ent; border-color: initial; }
+
+.highlight { background-image: initial; background-color: rgb(24, 26, 27); =
+}
+
+.highlight .c { color: rgb(162, 154, 142); }
+
+.highlight .err { color: rgb(233, 94, 94); background-color: rgb(58, 36, 36=
+); }
+
+.highlight .cm { color: rgb(162, 154, 142); }
+
+.highlight .cp { color: rgb(168, 160, 149); }
+
+.highlight .c1 { color: rgb(162, 154, 142); }
+
+.highlight .cs { color: rgb(168, 160, 149); }
+
+.highlight .gd { color: rgb(232, 230, 227); background-color: rgb(71, 0, 0)=
+; }
+
+.highlight .gd .x { color: rgb(232, 230, 227); background-color: rgb(102, 0=
+, 0); }
+
+.highlight .gr { color: rgb(255, 85, 85); }
+
+.highlight .gh { color: rgb(168, 160, 149); }
+
+.highlight .gi { color: rgb(232, 230, 227); background-color: rgb(18, 71, 0=
+); }
+
+.highlight .gi .x { color: rgb(232, 230, 227); background-color: rgb(26, 10=
+2, 0); }
+
+.highlight .go { color: rgb(157, 148, 136); }
+
+.highlight .gp { color: rgb(178, 172, 162); }
+
+.highlight .gu { color: rgb(255, 114, 255); }
+
+.highlight .gt { color: rgb(255, 85, 85); }
+
+.highlight .kt { color: rgb(139, 166, 197); }
+
+.highlight .m { color: rgb(97, 255, 255); }
+
+.highlight .s { color: rgb(239, 53, 100); }
+
+.highlight .n { color: rgb(200, 195, 188); }
+
+.highlight .na { color: rgb(114, 255, 255); }
+
+.highlight .nb { color: rgb(79, 211, 255); }
+
+.highlight .nc { color: rgb(139, 166, 197); }
+
+.highlight .no { color: rgb(114, 255, 255); }
+
+.highlight .ni { color: rgb(255, 114, 255); }
+
+.highlight .ne, .highlight .nf { color: rgb(255, 97, 97); }
+
+.highlight .nn { color: rgb(178, 172, 162); }
+
+.highlight .nt { color: rgb(127, 174, 255); }
+
+.highlight .nv { color: rgb(114, 255, 255); }
+
+.highlight .w { color: rgb(189, 183, 175); }
+
+.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo { color: rgb=
+(97, 255, 255); }
+
+.highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight =
+.se, .highlight .sh, .highlight .si, .highlight .sx { color: rgb(239, 53, 1=
+00); }
+
+.highlight .sr { color: rgb(97, 255, 136); }
+
+.highlight .s1 { color: rgb(239, 53, 100); }
+
+.highlight .ss { color: rgb(255, 97, 216); }
+
+.highlight .bp { color: rgb(168, 160, 149); }
+
+.highlight .vc, .highlight .vg, .highlight .vi { color: rgb(114, 255, 255);=
+ }
+
+.highlight .il { color: rgb(97, 255, 255); }
+
+.highlight .gc { color: rgb(168, 160, 149); background-color: rgb(22, 40, 4=
+7); }
+
+.type-csharp .highlight .k, .type-csharp .highlight .kt { color: rgb(51, 12=
+5, 255); }
+
+.type-csharp .highlight .nf { color: rgb(232, 230, 227); }
+
+.type-csharp .highlight .nc { color: rgb(92, 187, 215); }
+
+.type-csharp .highlight .nn { color: rgb(232, 230, 227); }
+
+.type-csharp .highlight .s, .type-csharp .highlight .sc { color: rgb(234, 9=
+6, 96); }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-56f72fcd-e5ee-4c51-8e4e-4630a85da13d@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+#edge-translate-panel-body, .MuiTypography-body1, .nfe-quote-text { color: =
+var(--darkreader-neutral-text) !important; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+.tou-z65h9k, .tou-mignzq, .tou-1b6i2ox, .tou-lnqlqk { background-color: var=
+(--darkreader-neutral-background) !important; }
+
+.tou-75mvi { background-color: rgb(3, 32, 41) !important; }
+
+.tou-ta9e87, .tou-1w3fhi0, .tou-1b8t2us, .tou-py7lfi, .tou-1lpmd9d, .tou-1f=
+rrtv8, .tou-17ezmgn { background-color: rgb(10, 10, 10) !important; }
+
+.tou-uknfeu { background-color: rgb(35, 22, 3) !important; }
+
+.tou-6i3zyv { background-color: rgb(25, 87, 108) !important; }
+
+embed[type=3D"application/pdf"][src=3D"about:blank"] { filter: invert(100%)=
+ contrast(90%); }
+------MultipartBoundary--ec2bQtUDFzmCghQdcycl7sQH6VtyE4vso0hEr2zPsX------
